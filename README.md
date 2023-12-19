@@ -39,8 +39,8 @@ The model is implemented in Python, leveraging the Pandas library for data clean
 ## About the Author
 Feel free to connect with me and explore more of my work.
 
-- **Kaggle:** [Kaggle Profile](https://www.kaggle.com/badrlakhal)
-- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/badr-lakhal-721603276/)
+- [Kaggle Profile](https://www.kaggle.com/badrlakhal)
+- [LinkedIn Profile](https://www.linkedin.com/in/badr-lakhal-721603276/)
 
 
 
