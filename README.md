@@ -1,4 +1,4 @@
-# PersonalCostForecast
+# Personal Cost Forecast
 
 ## Project Description
 This project focuses on predicting the target variable "charges" by employing Linear Regression with a dataset containing 7 variables. The objective was to identify the most influential feature in predicting charges. To achieve this, the following steps were taken:
