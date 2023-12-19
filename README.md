@@ -9,21 +9,21 @@ The Linear Regression model was built entirely from scratch, providing a hands-o
 2-Feature Selection:
 Six different models were created, each utilizing a different feature alongside the target variable. The cost function was calculated for each model, and the feature resulting in the lowest cost function was selected as the primary predictor.
 
-## Key Features:
+## Key Features
 - Implementation of Linear Regression from scratch
 - Feature selection based on cost function comparison
 - Utilization of a dataset with 7 variables, targeting the "charges" variable
 
-## Mathematical Formulas:
+## Mathematical Formulas
 1. **Linear Regression Model:**
    - The equation of the linear regression model is given by:
       y = w * x + b 
 
-2. **Cost Function:**
+2. **Cost Function**
    - The function is defined as:
       J(w, b) = (1 / n) * Σ (yᵢ - w * xᵢ - b)   for i from 0 to 1337 ( xi: feature and yi: target) 
 
-3. **Gradient Descent:**
+3. **Gradient Descent**
    - The derivative of the cost function with respect to w is defined as:
       dJ_dw = (-2 / n) ** Σ xi * (yᵢ - w * xᵢ - b)   for i from 0 to 1337 
    - The derivative of the cost function with respect to b is defined as:
