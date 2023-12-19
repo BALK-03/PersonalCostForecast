@@ -25,9 +25,9 @@ Six different models were created, each utilizing a different feature alongside 
 
 3. **Gradient Descent**
    - The derivative of the cost function with respect to w is defined as:
-      dJ_dw = (-2 / n) ** Σ xi * (yᵢ - w * xᵢ - b)   for i from 0 to 1337 
+      dJ_dw = (-2 / n) * Σ xi * (yᵢ - w * xᵢ - b)   for i from 0 to 1337 
    - The derivative of the cost function with respect to b is defined as:
-      dJ_dw = (-2 / n) ** Σ (yᵢ - w * xᵢ - b)   for i from 0 to 1337 
+      dJ_dw = (-2 / n) * Σ (yᵢ - w * xᵢ - b)   for i from 0 to 1337 
    - The algorithm is defined as:
       w = w - L * dJ_dw 
       b = b - L * dJ_db 
