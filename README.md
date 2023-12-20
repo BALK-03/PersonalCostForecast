@@ -18,7 +18,7 @@ Six different models were created, each utilizing a different feature alongside 
 1. **Linear Regression Model:**
    - The equation of the linear regression model is given by:
      
-      $y = w*x_{i} + b$
+      $y = w*x + b$
 2. **Cost Function**
    - $x_{i}$ represents the feature, and $y_{i}$ represents the target.
      
