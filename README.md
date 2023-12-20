@@ -27,7 +27,7 @@ Six different models were created, each utilizing a different feature alongside 
       $J(w,b) = \frac{-2}{1338}\sum_{i = 0}^{1337}y_{i}  - w x_{i} - b$
 
 4. **Gradient Descent**
-   - xi represents the feature, and yi represents the target.
+   - $x_{i}$ represents the feature, and $x_{i}$ represents the target.
      
    - The derivative of the cost function with respect to w is defined as:
      
@@ -37,9 +37,9 @@ Six different models were created, each utilizing a different feature alongside 
       $\frac{d J(w,b)}{dw} = \frac{-2}{1338}\sum_{i = 0}^{1337}(y_{i}  - w x_{i} - b)x_{i}$
    - The algorithm is defined as:
      
-      $$ w = w - L * dJ_dw $$
-      $$ b = b - L * dJ_db $$
-     L is the learning rate.
+      $w = w - \alpha\frac{d J(w, b)}{dw}$
+      $b = b - \alpha\frac{d J(w, b)}{db}$
+     $\alpha$ is the learning rate.
 
 
 ## Technologies Used
