@@ -25,8 +25,6 @@ Six different models were created, each utilizing a different feature alongside 
      
       \[ J(w, b) = \frac{1}{n} \sum_{i=0}^{1337} (y_i - w \cdot x_i - b) \quad \text{for } i \text{ from 0 to 1337} \]
 
-where \( x_i \) represents the feature and \( y_i \) represents the target.
-
 
 3. **Gradient Descent**
    - The derivative of the cost function with respect to w is defined as:
