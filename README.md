@@ -24,7 +24,7 @@ Six different models were created, each utilizing a different feature alongside 
      
    - The function is defined as:
      
-      $$ J(w, b) = (1 / n) * Σ (yᵢ - w * xᵢ - b)   for i from 0 to 1337. $$
+      J(w,b) = \frac{-2}{1338}\sum_{i = 0}^{1337}y_{i}  - w x_{i} - b
 
 4. **Gradient Descent**
    - xi represents the feature, and yi represents the target.
