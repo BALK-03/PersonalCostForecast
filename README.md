@@ -34,7 +34,7 @@ Six different models were created, each utilizing a different feature alongside 
       $\boxed{\frac{d J(w,b)}{dw} = \frac{-2}{1338}\sum_{0\le i\le 1337}y_{i}  - w * x_{i} - b}$
    - The derivative of the cost function with respect to b is defined as:
      
-      $\boxed{\frac{d J(w,b)}{dw} = \frac{-2}{1338}\sum_{0\le i\le 1337}(y_{i}  - w * x_{i} - b)x_{i}}$
+      $\boxed{\frac{d J(w,b)}{dw} = \frac{-2}{1338}\sum_{0\le i\le 1337}(y_{i}  - w * x_{i} - b) * x_{i}}$
    - The algorithm is defined as:
      
       $\boxed{w = w - \alpha * \frac{d J(w, b)}{dw}}$
