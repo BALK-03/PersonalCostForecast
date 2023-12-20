@@ -23,8 +23,8 @@ Six different models were created, each utilizing a different feature alongside 
 2. **Cost Function**
    - The function is defined as:
      
-      \[ J(w, b) = \frac{1}{n} \sum_{i=0}^{1337} (y_i - w \cdot x_i - b) \quad \text{for } i \text{ from 0 to 1337} \]
-
+      $$ J(w, b) = (1 / n) * Σ (yᵢ - w * xᵢ - b) for i from 0 to 1337 $$
+       xi: feature, yi: target
 
 3. **Gradient Descent**
    - The derivative of the cost function with respect to w is defined as:
