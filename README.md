@@ -19,25 +19,30 @@ Six different models were created, each utilizing a different feature alongside 
    - The equation of the linear regression model is given by:
      
       $$ y = w * x + b $$
+2. **Cost Function:**
 
-2. **Cost Function**
-   - The function is defined as:
-     
-      $$ J(w, b) = (1 / n) * Σ (yᵢ - w * xᵢ - b) for i from 0 to 1337 $$
-       xi: feature, yi: target
+The cost function is defined as:
 
-3. **Gradient Descent**
-   - The derivative of the cost function with respect to w is defined as:
-     
-      $$ dJ_dw = (-2 / n) * Σ xi * (yᵢ - w * xᵢ - b)   for i from 0 to 1337. $$
-   - The derivative of the cost function with respect to b is defined as:
-     
-      $$ dJ_dw = (-2 / n) * Σ (yᵢ - w * xᵢ - b)   for i from 0 to 1337. $$
-   - The algorithm is defined as:
-     
-      $$ w = w - L * dJ_dw $$
-      $$ b = b - L * dJ_db $$
-     L is the learning rate.
+\[ J(w, b) = \frac{1}{n} \sum_{i=0}^{1337} (y_i - w \cdot x_i - b) \quad \text{for } i \text{ from 0 to 1337} \]
+
+where \( x_i \) represents the feature and \( y_i \) represents the target.
+
+3. **Gradient Descent:**
+
+The derivative of the cost function with respect to \( w \) is defined as:
+
+\[ \frac{dJ}{dw} = \frac{-2}{n} \sum x_i \cdot (y_i - w \cdot x_i - b) \quad \text{for } i \text{ from 0 to 1337} \]
+
+The derivative of the cost function with respect to \( b \) is defined as:
+
+\[ \frac{dJ}{db} = \frac{-2}{n} \sum (y_i - w \cdot x_i - b) \quad \text{for } i \text{ from 0 to 1337} \]
+
+The algorithm is defined as:
+
+\[ w = w - L \cdot \frac{dJ}{dw} \]
+\[ b = b - L \cdot \frac{dJ}{db} \]
+
+where \( L \) is the learning rate.
 
 ## Technologies Used
 The model is implemented in Python, leveraging the Pandas library for data cleaning and preparation, and utilizing Matplotlib for visualizing the results.
