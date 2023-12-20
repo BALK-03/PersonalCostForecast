@@ -24,7 +24,7 @@ Six different models were created, each utilizing a different feature alongside 
      
    - The function is defined as:
      
-      $\boxed{J(w,b) = \frac{-2}{1338}\sum_{0\le i\le 1337}y_{i}  - w \cdot x_{i} - b}$
+      $\boxed{J(w,b) = \frac{1}{1338}\sum_{0\le i\le 1337}y_{i}  - w \cdot x_{i} - b}$
 
 4. **Gradient Descent**
    - $x_{i}$ represents the feature, and $y_{i}$ represents the target.
