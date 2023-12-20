@@ -24,17 +24,17 @@ Six different models were created, each utilizing a different feature alongside 
      
    - The function is defined as:
      
-      $J(w,b) = \frac{-2}{1338}\sum_{i = 0}^{1337}y_{i}  - w \cdot x_{i} - b$
+      $J(w,b) = \frac{-2}{1338}\sum_{0\le i\le 1337}y_{i}  - w \cdot x_{i} - b$
 
 4. **Gradient Descent**
    - $x_{i}$ represents the feature, and $y_{i}$ represents the target.
      
    - The derivative of the cost function with respect to w is defined as:
      
-      $\frac{d J(w,b)}{dw} = \frac{-2}{1338}\sum_{i = 0}^{1337}y_{i}  - w * x_{i} - b$
+      $\frac{d J(w,b)}{dw} = \frac{-2}{1338}\sum_{0\le i\le 1337}y_{i}  - w * x_{i} - b$
    - The derivative of the cost function with respect to b is defined as:
      
-      $\frac{d J(w,b)}{dw} = \frac{-2}{1338}\sum_{i = 0}^{1337}(y_{i}  - w * x_{i} - b)x_{i}$
+      $\frac{d J(w,b)}{dw} = \frac{-2}{1338}\sum_{0\le i\le 1337}(y_{i}  - w * x_{i} - b)x_{i}$
    - The algorithm is defined as:
      
       $w = w - \alpha * \frac{d J(w, b)}{dw}$
