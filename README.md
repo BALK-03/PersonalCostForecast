@@ -20,13 +20,15 @@ Six different models were created, each utilizing a different feature alongside 
      
       $$ y = w * x + b $$
 2. **Cost Function**
+   - xi represents the feature, and yi represents the target.
+     
    - The function is defined as:
      
-      $$ J(w, b) = (1 / n) * Σ (yᵢ - w * xᵢ - b) $$
-     for i from 0 to 1337
-     xi: feature, yi: target
+      $$ J(w, b) = (1 / n) * Σ (yᵢ - w * xᵢ - b)   for i from 0 to 1337. $$
 
-3. **Gradient Descent**
+4. **Gradient Descent**
+   - xi represents the feature, and yi represents the target.
+     
    - The derivative of the cost function with respect to w is defined as:
      
       $$ dJ_dw = (-2 / n) * Σ xi * (yᵢ - w * xᵢ - b)   for i from 0 to 1337. $$
